@@ -61,14 +61,14 @@
 
     <main>
       <!-- Hero -->
-      <!-- <section class="hero">
+      <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="hero-button button" data-modal-open>
             Order Service
           </button>
         </div>
-      </section> -->
+      </section>
 
       <!-- Features -->
       <section class="features section">
@@ -170,12 +170,28 @@
             <li class="team-item item">
               <div class="team-card-item">
                 <div class="team-card-thumb">
-                  <img
-                    src="./images/employees/mark-guerrero.jpg"
-                    alt="Mark Guerrero"
-                    width="264"
-                    height="260"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/employees/mark-guerrero.webp    1x,
+                        ./images/employees/mark-guerrero@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/employees/mark-guerrero.jpg    1x,
+                        ./images/employees/mark-guerrero@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      src="./images/employees/mark-guerrero.jpg"
+                      alt="Mark Guerrero"
+                      class="picture-img"
+                      width="264"
+                      height="260"
+                    />
+                  </picture>
                 </div>
                 <div class="team-card-content">
                   <h3 class="team-item-title item-title">Mark Guerrero</h3>
@@ -225,12 +241,27 @@
             <li class="team-item item">
               <div class="team-card-item">
                 <div class="team-card-thumb">
-                  <img
-                    src="./images/employees/tom-ford.jpg"
-                    alt="Tom Ford"
-                    width="264"
-                    height="260"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/employees/tom-ford.webp    1x,
+                        ./images/employees/tom-ford@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/employees/tom-ford.jpg    1x,
+                        ./images/employees/tom-ford@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      src="./images/employees/tom-ford.jpg"
+                      alt="Tom Ford"
+                      width="264"
+                      height="260"
+                    />
+                  </picture>
                 </div>
                 <div class="team-card-content">
                   <h3 class="team-item-title item-title">Tom Ford</h3>
@@ -280,12 +311,27 @@
             <li class="team-item item">
               <div class="team-card-item">
                 <div class="team-card-thumb">
-                  <img
-                    src="./images/employees/camila-garcia.jpg"
-                    alt="Camila Garcia"
-                    width="264"
-                    height="260"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/employees/camila-garcia.webp    1x,
+                        ./images/employees/camila-garcia@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/employees/camila-garcia.jpg    1x,
+                        ./images/employees/camila-garcia@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      src="./images/employees/camila-garcia.jpg"
+                      alt="Camila Garcia"
+                      width="264"
+                      height="260"
+                    />
+                  </picture>
                 </div>
                 <div class="team-card-content">
                   <h3 class="team-item-title item-title">Camila Garcia</h3>
@@ -335,12 +381,27 @@
             <li class="team-item item">
               <div class="team-card-item">
                 <div class="team-card-thumb">
-                  <img
-                    src="./images/employees/daniel-wilson.jpg"
-                    alt="Daniel Wilson"
-                    width="264"
-                    height="260"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/employees/daniel-wilson.webp    1x,
+                        ./images/employees/daniel-wilson@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/employees/daniel-wilson.jpg    1x,
+                        ./images/employees/daniel-wilson@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      src="./images/employees/daniel-wilson.jpg"
+                      alt="Daniel Wilson"
+                      width="264"
+                      height="260"
+                    />
+                  </picture>
                 </div>
                 <div class="team-card-content">
                   <h3 class="team-item-title item-title">Daniel Wilson</h3>
@@ -391,7 +452,7 @@
       </section>
 
       <!-- Customers -->
-      <!-- <section class="customers section">
+      <section class="customers section">
         <div class="container">
           <h2 class="customers-title section-title">Customers</h2>
           <ul class="customers-list list">
@@ -439,7 +500,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
 
     <!-- Footer -->
@@ -600,7 +661,7 @@
         </form>
       </div>
     </div> -->
-
-    <script src="./js/modal.js"></script>
+    <!-- 
+    <script src="./js/modal.js"></script> -->
   </body>
 </html>
