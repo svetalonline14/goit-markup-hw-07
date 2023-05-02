@@ -1511,7 +1511,7 @@
     }
 
     .footer-subscribe {
-        margin-left: auto;
+        margin-left: 48px;
     }
 
     .footer-subscribe-title {
@@ -1560,10 +1560,10 @@
     .footer-subscribe-btn {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-end;
         gap: 16px;
         /* margin-left: auto; */
-        /* margin-right: auto; */
+        margin-right: 0px;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
