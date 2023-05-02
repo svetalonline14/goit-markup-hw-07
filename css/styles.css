@@ -135,16 +135,15 @@
     .color-logo  {
         color: var(--title-text-color-navy-blue);
     }
-
-    .header-list {
-        display: none;
-    }
-
     .header-address {
         margin-left: auto;
         text-decoration: none;
         font-style: normal;
         color: var(--primary-text-color-slate);
+    }
+
+    .header-list {
+        display: none;
     }
 
     .header-address-list {
@@ -153,6 +152,7 @@
     .menu-open-btn {
         background-color: transparent;
         border: none;
+        
     }
     .menu-open-btn-icon {
         stroke: var(--dark-bg-color);
@@ -206,20 +206,20 @@
         margin-bottom: 50px;
     }
     
-    .mob-menu-address {
-        margin-bottom: 48px;
-    }
-    
     .mob-menu-item:not(:last-child) {
         margin-bottom: 40px;
     }
-    
-    .mob-menu-address-link {
+
+    .mob-menu-address {
         margin-bottom: 48px;
     }
 
-    .mob-menu-phone-item {
-        padding-bottom: 40px;
+    .mob-menu-link:focus {
+        color: var(--active-color-ocean);
+    }
+    
+     .mob-menu-phone-item {
+        margin-bottom: 40px;
     }
 
     .mob-menu-phone-link {
@@ -229,7 +229,7 @@
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--actent-color-iris);
-        margin-bottom: 40px;
+       
     }
 
     .mob-menu-address-link {
@@ -238,6 +238,7 @@
         line-height: 1.2;     
         letter-spacing: 0.02em;
         color: var(--primary-text-color-slate);
+        margin-bottom: 48px;
     }
     
     .mob-menu-soc-list {
@@ -901,6 +902,9 @@
         .modal {
             width: 320px;
         }
+        .mob-menu-phone-link {
+            font-size: 24px;
+        }
     }
 
 
@@ -1263,10 +1267,10 @@
     }
 
     .features-item-title {
+        font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em
-        font-weight: 500;
     }
     .features-text {
         font-weight: 400;
@@ -1399,8 +1403,6 @@
         margin-left: 0;
         padding-left: 0;
         padding-right: 0;
-       
-
     }
 
     .footer-sotial-title {
